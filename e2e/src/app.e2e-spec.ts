@@ -1,5 +1,6 @@
 import { AppPage } from './app.po';
 import { browser, logging } from 'protractor';
+import { by, element } from 'protractor';
 
 describe('workspace-project App', () => {
   let page: AppPage;
@@ -10,8 +11,19 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('Resto1 app is running!');
+    //browser.pause();
+    expect(page.getTitleText()).toEqual('Restaurant App');
   });
+  it('Add Resto', () => {
+    page.navigateTo();
+    page.clickAddResto();
+    expect(page.getSubmitButtonText()).toEqual('Submit');
+    page.EnterDataInNameTextBox();
+    page.EnterDataInAddressTextBox();
+    page.EnterDataInEmailTextBox();
+    page.ClickSubmitButton();
+    expect(page.GetSuccessMessage()).toEqual('Success!');
+  })
 
   afterEach(async () => {
     // Assert that there are no errors emitted from the browser
