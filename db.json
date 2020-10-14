@@ -1,0 +1,54 @@
+{
+  "restaurants": [
+    {
+      "name": "KFC restaurant",
+      "address": "chicago",
+      "email": "kfcchicago.com",
+      "id": 1
+    },
+    {
+      "name": "Big Bowl",
+      "address": "Chicago",
+      "email": "order@bigbowl.com",
+      "id": 3
+    },
+    {
+      "name": "Signature Room",
+      "address": "Chicago",
+      "email": "signatureroomchicago.com",
+      "id": 5
+    },
+    {
+      "name": "Lou Malnati's Pizza",
+      "address": "Chicago",
+      "email": "ww.loumalnatis.com",
+      "id": 6
+    },
+    {
+      "name": "Parlor Pizza",
+      "address": "Chicago",
+      "email": "parlorchicgo.com",
+      "id": 7
+    },
+    {
+      "name": "Taco Bell",
+      "address": "Chicago West Loop",
+      "email": "tacobell.com",
+      "id": 8
+    }
+  ],
+  "users": [
+    {
+      "name": "sahana",
+      "password": "1234",
+      "email": "sahana@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "Satya",
+      "password": "1345",
+      "email": "satya@yahoo.com",
+      "id": 2
+    }
+  ]
+}

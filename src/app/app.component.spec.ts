@@ -23,13 +23,13 @@ describe('AppComponent', () => {
   it(`should have as title 'Resto1'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('Resto1');
+    expect(app.title).toEqual('Restaurant App');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('Resto1 app is running!');
+    expect(compiled.querySelector('span').textContent).toContain('Restaurant App');
   });
 });

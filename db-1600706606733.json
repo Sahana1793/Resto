@@ -1,0 +1,16 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "KFC restaurant",
+      "address": "noida sector 50",
+      "email": "kfc@test.com"
+    },
+    {
+      "name": "Naf Naf Grill",
+      "address": "Chicago",
+      "email": "Nafnafgrill.com",
+      "id": 2
+    }
+  ]
+}
